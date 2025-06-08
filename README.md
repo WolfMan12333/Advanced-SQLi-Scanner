@@ -1,6 +1,6 @@
 # Advanced SQLi Scanner (GUI-Based)
 
-An advanced SQL injection vulnerability scanner with a clean PyQt6 interface. Designed for both **source code analysis** and **real-world testing**, it supports detection of input parameters in multiple languages and generates full SQLi payload URLs.
+An advanced SQL injection vulnerability scanner with a clean PyQt6 interface. Designed for both **source code analysis** and **real-world testing**, it supports detection of input parameters in multiple languages and generates full SQLi payload URLs. The tools is till underconstruction as I have still lots of ideas to make it better.
 
 ## 🚀 Features
 
