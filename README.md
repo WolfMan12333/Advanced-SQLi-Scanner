@@ -19,39 +19,6 @@ An advanced SQL injection vulnerability scanner with a clean PyQt6 interface. De
 - 📄 Auto-generated `scan.log` and clean `report.html` per project.
 - 🖥️ Simple, intuitive PyQt6 interface with logs and progress display.
 
-## 📦 Project Structure
-
--├── README.md
--├── __pycache__
--│   ├── advanced_sqli_scanner.cpython-313.pyc
--│   ├── logger.cpython-313.pyc
--│   └── utils.cpython-313.pyc
--├── advanced_sqli_scanner.py
--├── payloads
--│   ├── generic.txt
--│   ├── mssql.txt
--│   ├── mysql.txt
--│   ├── oracle.txt
--│   └── pgsql.txt
--├── reports
--├── requirements.txt
--├── sqli_scanner_gui.py
--├── test
--│   ├── admin
--│   │   ├── config.php
--│   │   └── dashboard.php
--│   ├── api
--│   │   ├── auth.py
--│   │   └── user.py
--│   ├── index.php
--│   ├── server
--│   │   └── app.js
--│   ├── static
--│   │   └── script.js
--│   └── views
--│       └── login.html
--└── utils.py
-
 ## 1. Clone the repository
 git clone https://github.com/yourusername/advanced-sqli-scanner.git
 cd advanced-sqli-scanner
