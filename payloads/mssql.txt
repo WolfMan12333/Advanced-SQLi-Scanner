@@ -1,0 +1,100 @@
+'; SELECT 'TEST' --
+'+CAST('TEST' AS VARCHAR)+'
+'; EXEC('SELECT ''TEST''') --
+'; DECLARE @a VARCHAR(100); SET @a='TEST'; SELECT @a; --
+'; SELECT TOP 1 name FROM sysobjects WHERE name LIKE '%TEST%'; --
+'; SELECT TEST FROM (SELECT 'TEST') a(TEST); --
+'; SELECT * FROM OPENROWSET('SQLNCLI', 'Server=(local);Trusted_Connection=yes;', 'SELECT ''TEST'''); --
+'; SELECT CHAR(84)+CHAR(69)+CHAR(83)+CHAR(84); --
+'; SELECT ASCII('T')+ASCII('E')+ASCII('S')+ASCII('T'); --
+'; SELECT 'abc'+'TEST'; --
+'; WAITFOR DELAY '00:00:01'; --TEST
+'; SELECT 1 FROM users WHERE username='TEST'; --
+'; SELECT * INTO #tmp FROM (SELECT 'TEST' AS col) AS t; --
+'; SELECT XMLDATA FROM OPENXML(@idoc, '//TEST') --
+'; EXEC sp_executesql N'SELECT ''TEST'''; --
+'; SELECT @@VERSION; --TEST
+'; SELECT name FROM master..sysdatabases WHERE name='TEST'; --
+'; SELECT 'T'+CHAR(69)+CHAR(83)+CHAR(84); --
+'; SELECT HASHBYTES('MD5','TEST'); --
+'; SELECT CONVERT(VARCHAR, 'TEST'); --
+'; SELECT 'TEST' --
+'+CAST('TEST' AS VARCHAR)+'
+'; EXEC('SELECT ''TEST''') --
+'; DECLARE @a VARCHAR(100); SET @a='TEST'; SELECT @a; --
+'; SELECT TOP 1 name FROM sysobjects WHERE name LIKE '%TEST%'; --
+'; SELECT TEST FROM (SELECT 'TEST') a(TEST); --
+'; SELECT * FROM OPENROWSET('SQLNCLI', 'Server=(local);Trusted_Connection=yes;', 'SELECT ''TEST'''); --
+'; SELECT CHAR(84)+CHAR(69)+CHAR(83)+CHAR(84); --
+'; SELECT ASCII('T')+ASCII('E')+ASCII('S')+ASCII('T'); --
+'; SELECT 'abc'+'TEST'; --
+'; WAITFOR DELAY '00:00:01'; --TEST
+'; SELECT 1 FROM users WHERE username='TEST'; --
+'; SELECT * INTO #tmp FROM (SELECT 'TEST' AS col) AS t; --
+'; SELECT XMLDATA FROM OPENXML(@idoc, '//TEST') --
+'; EXEC sp_executesql N'SELECT ''TEST'''; --
+'; SELECT @@VERSION; --TEST
+'; SELECT name FROM master..sysdatabases WHERE name='TEST'; --
+'; SELECT 'T'+CHAR(69)+CHAR(83)+CHAR(84); --
+'; SELECT HASHBYTES('MD5','TEST'); --
+'; SELECT CONVERT(VARCHAR, 'TEST'); --
+'; SELECT 'TEST' --
+'+CAST('TEST' AS VARCHAR)+'
+'; EXEC('SELECT ''TEST''') --
+'; DECLARE @a VARCHAR(100); SET @a='TEST'; SELECT @a; --
+'; SELECT TOP 1 name FROM sysobjects WHERE name LIKE '%TEST%'; --
+'; SELECT TEST FROM (SELECT 'TEST') a(TEST); --
+'; SELECT * FROM OPENROWSET('SQLNCLI', 'Server=(local);Trusted_Connection=yes;', 'SELECT ''TEST'''); --
+'; SELECT CHAR(84)+CHAR(69)+CHAR(83)+CHAR(84); --
+'; SELECT ASCII('T')+ASCII('E')+ASCII('S')+ASCII('T'); --
+'; SELECT 'abc'+'TEST'; --
+'; WAITFOR DELAY '00:00:01'; --TEST
+'; SELECT 1 FROM users WHERE username='TEST'; --
+'; SELECT * INTO #tmp FROM (SELECT 'TEST' AS col) AS t; --
+'; SELECT XMLDATA FROM OPENXML(@idoc, '//TEST') --
+'; EXEC sp_executesql N'SELECT ''TEST'''; --
+'; SELECT @@VERSION; --TEST
+'; SELECT name FROM master..sysdatabases WHERE name='TEST'; --
+'; SELECT 'T'+CHAR(69)+CHAR(83)+CHAR(84); --
+'; SELECT HASHBYTES('MD5','TEST'); --
+'; SELECT CONVERT(VARCHAR, 'TEST'); --
+'; SELECT 'TEST' --
+'+CAST('TEST' AS VARCHAR)+'
+'; EXEC('SELECT ''TEST''') --
+'; DECLARE @a VARCHAR(100); SET @a='TEST'; SELECT @a; --
+'; SELECT TOP 1 name FROM sysobjects WHERE name LIKE '%TEST%'; --
+'; SELECT TEST FROM (SELECT 'TEST') a(TEST); --
+'; SELECT * FROM OPENROWSET('SQLNCLI', 'Server=(local);Trusted_Connection=yes;', 'SELECT ''TEST'''); --
+'; SELECT CHAR(84)+CHAR(69)+CHAR(83)+CHAR(84); --
+'; SELECT ASCII('T')+ASCII('E')+ASCII('S')+ASCII('T'); --
+'; SELECT 'abc'+'TEST'; --
+'; WAITFOR DELAY '00:00:01'; --TEST
+'; SELECT 1 FROM users WHERE username='TEST'; --
+'; SELECT * INTO #tmp FROM (SELECT 'TEST' AS col) AS t; --
+'; SELECT XMLDATA FROM OPENXML(@idoc, '//TEST') --
+'; EXEC sp_executesql N'SELECT ''TEST'''; --
+'; SELECT @@VERSION; --TEST
+'; SELECT name FROM master..sysdatabases WHERE name='TEST'; --
+'; SELECT 'T'+CHAR(69)+CHAR(83)+CHAR(84); --
+'; SELECT HASHBYTES('MD5','TEST'); --
+'; SELECT CONVERT(VARCHAR, 'TEST'); --
+'; SELECT 'TEST' --
+'+CAST('TEST' AS VARCHAR)+'
+'; EXEC('SELECT ''TEST''') --
+'; DECLARE @a VARCHAR(100); SET @a='TEST'; SELECT @a; --
+'; SELECT TOP 1 name FROM sysobjects WHERE name LIKE '%TEST%'; --
+'; SELECT TEST FROM (SELECT 'TEST') a(TEST); --
+'; SELECT * FROM OPENROWSET('SQLNCLI', 'Server=(local);Trusted_Connection=yes;', 'SELECT ''TEST'''); --
+'; SELECT CHAR(84)+CHAR(69)+CHAR(83)+CHAR(84); --
+'; SELECT ASCII('T')+ASCII('E')+ASCII('S')+ASCII('T'); --
+'; SELECT 'abc'+'TEST'; --
+'; WAITFOR DELAY '00:00:01'; --TEST
+'; SELECT 1 FROM users WHERE username='TEST'; --
+'; SELECT * INTO #tmp FROM (SELECT 'TEST' AS col) AS t; --
+'; SELECT XMLDATA FROM OPENXML(@idoc, '//TEST') --
+'; EXEC sp_executesql N'SELECT ''TEST'''; --
+'; SELECT @@VERSION; --TEST
+'; SELECT name FROM master..sysdatabases WHERE name='TEST'; --
+'; SELECT 'T'+CHAR(69)+CHAR(83)+CHAR(84); --
+'; SELECT HASHBYTES('MD5','TEST'); --
+'; SELECT CONVERT(VARCHAR, 'TEST'); --

@@ -1,0 +1,100 @@
+'; SELECT 'TEST'; --
+'||'TEST'||'
+'; COPY (SELECT 'TEST') TO STDOUT; --
+'; EXECUTE format('SELECT %s', 'TEST'); --
+'; SELECT xmlforest('TEST'); --
+'; SELECT to_json('TEST'); --
+'; SELECT json_agg('TEST'); --
+'; DO $$ BEGIN RAISE NOTICE '%','TEST'; END $$; --
+'; SELECT 'a'||'TEST'; --
+'; SELECT pg_sleep(1); --TEST
+'; SELECT 1 FROM users WHERE name = 'TEST'; --
+'; SELECT unnest(ARRAY['TEST']); --
+'; SELECT string_agg('TEST',''); --
+'; SELECT current_setting('is_superuser','TEST'); --
+'; SELECT substring('abcdefTESTghijk', 7, 4); --
+'; SELECT quote_literal('TEST'); --
+'; SELECT encode('TEST'::bytea, 'base64'); --
+'; SELECT to_hex('TEST'); --
+'; SELECT 'a' || chr(65)||'TEST'; --
+'; SELECT md5('TEST'); --
+'; SELECT 'TEST'; --
+'||'TEST'||'
+'; COPY (SELECT 'TEST') TO STDOUT; --
+'; EXECUTE format('SELECT %s', 'TEST'); --
+'; SELECT xmlforest('TEST'); --
+'; SELECT to_json('TEST'); --
+'; SELECT json_agg('TEST'); --
+'; DO $$ BEGIN RAISE NOTICE '%','TEST'; END $$; --
+'; SELECT 'a'||'TEST'; --
+'; SELECT pg_sleep(1); --TEST
+'; SELECT 1 FROM users WHERE name = 'TEST'; --
+'; SELECT unnest(ARRAY['TEST']); --
+'; SELECT string_agg('TEST',''); --
+'; SELECT current_setting('is_superuser','TEST'); --
+'; SELECT substring('abcdefTESTghijk', 7, 4); --
+'; SELECT quote_literal('TEST'); --
+'; SELECT encode('TEST'::bytea, 'base64'); --
+'; SELECT to_hex('TEST'); --
+'; SELECT 'a' || chr(65)||'TEST'; --
+'; SELECT md5('TEST'); --
+'; SELECT 'TEST'; --
+'||'TEST'||'
+'; COPY (SELECT 'TEST') TO STDOUT; --
+'; EXECUTE format('SELECT %s', 'TEST'); --
+'; SELECT xmlforest('TEST'); --
+'; SELECT to_json('TEST'); --
+'; SELECT json_agg('TEST'); --
+'; DO $$ BEGIN RAISE NOTICE '%','TEST'; END $$; --
+'; SELECT 'a'||'TEST'; --
+'; SELECT pg_sleep(1); --TEST
+'; SELECT 1 FROM users WHERE name = 'TEST'; --
+'; SELECT unnest(ARRAY['TEST']); --
+'; SELECT string_agg('TEST',''); --
+'; SELECT current_setting('is_superuser','TEST'); --
+'; SELECT substring('abcdefTESTghijk', 7, 4); --
+'; SELECT quote_literal('TEST'); --
+'; SELECT encode('TEST'::bytea, 'base64'); --
+'; SELECT to_hex('TEST'); --
+'; SELECT 'a' || chr(65)||'TEST'; --
+'; SELECT md5('TEST'); --
+'; SELECT 'TEST'; --
+'||'TEST'||'
+'; COPY (SELECT 'TEST') TO STDOUT; --
+'; EXECUTE format('SELECT %s', 'TEST'); --
+'; SELECT xmlforest('TEST'); --
+'; SELECT to_json('TEST'); --
+'; SELECT json_agg('TEST'); --
+'; DO $$ BEGIN RAISE NOTICE '%','TEST'; END $$; --
+'; SELECT 'a'||'TEST'; --
+'; SELECT pg_sleep(1); --TEST
+'; SELECT 1 FROM users WHERE name = 'TEST'; --
+'; SELECT unnest(ARRAY['TEST']); --
+'; SELECT string_agg('TEST',''); --
+'; SELECT current_setting('is_superuser','TEST'); --
+'; SELECT substring('abcdefTESTghijk', 7, 4); --
+'; SELECT quote_literal('TEST'); --
+'; SELECT encode('TEST'::bytea, 'base64'); --
+'; SELECT to_hex('TEST'); --
+'; SELECT 'a' || chr(65)||'TEST'; --
+'; SELECT md5('TEST'); --
+'; SELECT 'TEST'; --
+'||'TEST'||'
+'; COPY (SELECT 'TEST') TO STDOUT; --
+'; EXECUTE format('SELECT %s', 'TEST'); --
+'; SELECT xmlforest('TEST'); --
+'; SELECT to_json('TEST'); --
+'; SELECT json_agg('TEST'); --
+'; DO $$ BEGIN RAISE NOTICE '%','TEST'; END $$; --
+'; SELECT 'a'||'TEST'; --
+'; SELECT pg_sleep(1); --TEST
+'; SELECT 1 FROM users WHERE name = 'TEST'; --
+'; SELECT unnest(ARRAY['TEST']); --
+'; SELECT string_agg('TEST',''); --
+'; SELECT current_setting('is_superuser','TEST'); --
+'; SELECT substring('abcdefTESTghijk', 7, 4); --
+'; SELECT quote_literal('TEST'); --
+'; SELECT encode('TEST'::bytea, 'base64'); --
+'; SELECT to_hex('TEST'); --
+'; SELECT 'a' || chr(65)||'TEST'; --
+'; SELECT md5('TEST'); --
